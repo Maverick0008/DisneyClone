@@ -9,6 +9,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import Login from './components/Login';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route exact path='/detail' element={ <Detail />} />
           <Route exact path='/' element={<Home />} />
+          <Route exact path='/login' element={<Login />} />
         </Routes>
       </BrowserRouter>
     </div>
